@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerry Edwardson</title>
+    <!-- normalise.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--these are the fonts the dude used, you can choose your own later-->
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kerry Edwardson</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/4.png" alt="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo-img"></a>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -38,22 +46,22 @@
 
     <!--Services-->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I have learnt && What I can do</h2>
+        <h2 class="section__title section__title--services">What I've learnt && What I can do</h2>
         <div class="services">
             
             <div class="service">
                 <h3>HTML & CSS</h3>
-                <p>I have been studying HTML and CSS for over a year now. I have built simple, static sites and other little projects. I've been researching accessibility in HTML as well. </p>
+                <p>I am proficient in HTML and CSS. I am also comfortable with Bootstrap. I have built simple, static sites and other small projects. </p>
             </div> <!--end service-->
 
             <div class="service">
-                <h3>MySQL and Databases</h3>
-                <p>In school, we had several assessments using MySQL. I understand the differences between databases, and I know how to manipulate data. </p>
+                <h3>MySQL & NoSQL</h3>
+                <p>In school, we had several assessments using MySQL. I understand the differences between databases, and I know how to manipulate data. I've also used MongoDB, a NoSQL database.</p>
             </div> <!--end service-->
 
             <div class="service">
-                <h3>JavaScript</h3>
-                <p>I'm also working on my JavaScript. It's the most challenging part of web development so far, and I'm here for it. I'll be working on JQuery and React next!</p>
+                <h3>JavaScript, jQuery, & React</h3>
+                <p>I am comfortable using JavaScript, jQuery, and React. I have been learning JavaScript using several resources. I'm experienced manipulating in the DOM. </p>
             </div> <!--end service-->
 
         </div> <!-- end services-->
@@ -64,56 +72,56 @@
     <!--About me-->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Future front-end web developer</p>
+        <p class="section__subtitle section__subtitle--about">Junior front-end web developer</p>
 
         <div class="about-me__body">
             <p>I am a recent graduate of the Advanced Diploma of Information Technology program from Southern Cross Education Institute in Melbourne. This course taught me several IT concepts and a bit of code. The rest of my coding journey has been independent. I have spent several hours working through FreeCodeCamp and LinkedIn Learning courses. I am looking for my first junior developer role.</p>
             <p>I am from Philadelphia, and I have been living in Australia for 3 years. I chose to move down under for an adventure and I ended up finding a life path in IT. My professional experience has been in hospitality which has given me a strong sense of communication and teamwork. When I'm not coding, I'm out taking photos or doing yoga (or doomscrolling the news).</p>
         </div>
 
-        <img src="images/DSC_0015.JPG" alt="" class="about-me__img">
+        <img src="images/profile2.jpg" alt="a picture of Kezza Edwardson" class="about-me__img">
     </section>
 
     <!--My work-->
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my school assessments and personal projects</p>
+        <p class="section__subtitle section__subtitle--work">A selection of school assignments and personal projects</p>
 
         
         <div class="portfolio">
 
             <!--portfolio item 1-->
             <a href="portfolio-item1.html" class="portfolio__item">
-                <img src="images/port1.png" alt="" class="portfolio__img">
+                <img src="images/port1/port1.png" alt="a screenshot of a website I built" class="portfolio__img">
             </a>
 
              <!--portfolio item 2-->
              <a href="portfolio-item2.html" class="portfolio__item">
-                <img src="images/port2.png" alt="" class="portfolio__img">
+                <img src="images/port2/port2.png" alt="a screenshot of a website I built" class="portfolio__img">
             </a>
 
              <!--portfolio item 3-->
              <a href="portfolio-item3.html" class="portfolio__item">
-                <img src="images/port3.png" alt="" class="portfolio__img">
+                <img src="images/port3/port3.png" alt="a screenshot of an app I built" class="portfolio__img">
             </a>
         
-             <!--portfolio item 4-->
-        <!--     <a href="portfolio-item3.html" class="portfolio__item">
-                <img src="images/port3.png" alt="" class="portfolio__img">
+             <!-- portfolio item 4 -->
+         <a href="portfolio-item4.html" class="portfolio__item">
+                <img src="images/port4/port4.png" alt="a screenshot of an app I built" class="portfolio__img">
             </a>
 
-             <!--portfolio item 5-->
-        <!--   <a href="portfolio-item3.html" class="portfolio__item">
-                <img src="images/port3.png" alt="" class="portfolio__img">
+             <!-- portfolio item 5 -->
+        <a href="portfolio-item5.html" class="portfolio__item">
+                <img src="images/port5/port5.png" alt="a screenshot of a Google clone I made" class="portfolio__img">
             </a>
 
-             <!--portfolio item 6-->
-        <!--     <a href="portfolio-item3.html" class="portfolio__item">
-                <img src="images/port3.png" alt="" class="portfolio__img">
+            <!-- portfolio item 6 -->
+           <a href="portfolio-item6.html" class="portfolio__item">
+                <img src="images/port6/port6.png" alt="a screenshot of an artwork I recreated using CSS" class="portfolio__img">
             </a>
-        -->
+       
         </div>
-    </section>
+    </section> 
 
     <!--footer-->
     <footer class="footer">

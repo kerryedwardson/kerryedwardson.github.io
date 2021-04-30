@@ -3,48 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerry Edwardson</title>
+    <!-- normalise.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--these are the fonts the dude used, you can choose your own later-->
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kerry Edwardson</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/4.png" alt="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo-img"></a>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
-                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
 
-    
      <!--Introduction-->
      <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">Another static site made with <strong>HTML and CSS</strong></h1>
-        <p class="section__subtitle section__subtitle--intro">A personal project</p>
-        <img src="images/port2.png" alt="" class="intro__img">
+        <h1 class="section__title section__title--intro">A static site made with <strong>HTML, CSS, and Bootstrap</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">A Udemy project</p>
+        <img src="images/port2/port2.png" alt="a screenshot of a website I built" class="intro__img">
     </section>
 
     <div class="portfolio-item-individual">
-        <p>There is a local cafe that I noticed only has a Google Sites website. I wanted to make it a personalized website.</p>
-        <img src="images/port2.png" alt="" class="portfolio-img">
-        <p>I'm still working on the design and functionality. I am planning on adding a Google Maps API key.</p>
-        <img src="images/port2.1.png" alt="" class="portfolio-img">
-        <p>I created a carousel for the images.</p>
-        <img src="images/port2.2.png" alt="" class="portfolio-img">
-        <p>You can check out the code <a href="https://github.com/kerryedwardson/localcafe">here on my Github.</a></p>
+        <p>I learned about Bootstrap working through Angela Yu's Udemy course.</p>
+        <img src="images/port2/port2.png" alt="a screenshot of a website I built" class="portfolio-img">
+        <p>The point of the exercise was to manipulate the elements on the screen to recreate a mockup.</p>
+        <img src="images/port2/port2.2.png" alt="a screenshot of a website I built" class="portfolio-img">
+        <p>The other main aspect of the lesson was to learn how to use Bootstrap.</p>
+        <img src="images/port2/port2.5.png" alt="a screenshot of a website I built" class="portfolio-img">
+        <p>You can check out the code <a href="https://github.com/kerryedwardson/tindog">here on my Github.</a></p>
         
     </div>
 

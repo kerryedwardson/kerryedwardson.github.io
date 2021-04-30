@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 
-/* custom properties, change for your own design */
+/* custom properties */
 /* extra colors: pale pink: #F7DAD9 selective yellow: #FFBC0A */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif; /*change font here */
-    --ff-secondary: 'Source Code Pro', monospace; /* and here */
+    --ff-primary: 'Source Sans Pro', sans-serif; 
+    --ff-secondary: 'Source Code Pro', monospace; 
 
-    --fw-reg: 300; /* and here */
-    --fw-bold: 900; /* and here */
+    --fw-reg: 300; 
+    --fw-bold: 900; 
 
-    --clr-light: #EEF0F2; /* can change or invert the colors here :) */
+    --clr-light: #EEF0F2; 
     --clr-dark: #303030;
     --clr-accent: #D741A7;
 
@@ -167,7 +167,7 @@ header {
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h2); /*can definitely make this smaller */
+    font-size: var(--fs-h2); 
     text-decoration: none;
 }
 
@@ -279,7 +279,7 @@ header {
     }
 }
 
-/* services section, change the multiply part or the colors*/
+/* services section */
 
 .my-services {
     background-color: var(--clr-dark);
@@ -301,7 +301,7 @@ header {
     width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-light); /* or currentColor */
+    background: var(--clr-light); 
     opacity: 0.25;
 }
 
@@ -341,7 +341,7 @@ header {
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 200px; /* change this depending on the image you use */
+        grid-template-columns: 1fr 200px; 
         grid-template-areas: 
             "title img"
             "subtitle img"
@@ -381,7 +381,7 @@ header {
 
 .portfolio {
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     /*max-width: 1000px;
     margin: 0 auto;*/
 }
@@ -405,7 +405,7 @@ header {
 .portfolio__img:hover, 
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5; /* use more for more of the color to come through */
+    opacity: .5; 
 }
 
 /* footer */
@@ -489,3 +489,4 @@ p a:hover {
 p a:link, p a:visited {
     text-decoration: none;
 }
+

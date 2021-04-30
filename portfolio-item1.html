@@ -3,49 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerry Edwardson</title>
+    <!-- normalise.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!--these are the fonts the dude used, you can choose your own later-->
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kerry Edwardson</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/4.png" alt="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo-img"></a>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
-                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
 
-    
      <!--Introduction-->
      <section class="intro" id="home">
         <h1 class="section__title section__title--intro">A static site made with <strong>HTML and CSS</strong></h1>
         <p class="section__subtitle section__subtitle--intro">A school assignment</p>
-        <img src="images/port1.png" alt="" class="intro__img">
+        <img src="images/port1/port1.png" alt="a screenshot of a website I built" class="intro__img">
     </section>
 
     <div class="portfolio-item-individual">
-        <p>This site was made of a school assignment in which we were directed to create a business website. It has 5 pages that all draw from the same CSS file.</p>
-        <img src="images/port1.png" alt="" class="portfolio-img">
-        <p>The business was a fictional ice cream parlour in Melbourne. I made a navbar, a footer, and the social media icons sidebar.</p>
-        <img src="images/port1.2.png" alt="" class="portfolio-img">
+        <p>This site was made of a school assignment in which we were directed to create a business website. It has 5 pages that all connect to the same CSS file.</p>
+        <img src="images/port1/port1.png" alt="a screenshot of a website I built" class="portfolio-img">
+        <p>The business was a fictional ice cream parlour in Melbourne. I made a navbar, a footer, and the functional social media icons sidebar.</p>
+        <img src="images/port1/port1.2.png" alt="a screenshot of a website I built" class="portfolio-img">
         <p>I also included a map to the supposed location.</p>
-        <img src="images/port1.4.png" alt="" class="portfolio-img">
-        <p>I don't have this project on Github yet, so here's a look at the code.</p>
-        <img src="images/port1.5.png" alt="" class="portfolio-img">
+        <img src="images/port1/port1.4.png" alt="a screenshot of the code I wrote for the site" class="portfolio-img">
+        <p>I don't have this project on Github yet so here's a look at the code.</p>
+        <img src="images/port1/port1.5.png" alt="a screenshot of the code I wrote for the site" class="portfolio-img">
         
     </div>
 
